@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
 body
 {
     background-color: #1D1815;
@@ -10,6 +11,7 @@ body
 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 
@@ -78,8 +80,18 @@ body
 }
 
 
+.contacts img
+{
+    left: 67.69%;
+    right: 30.12%;
+    top: 4.98%;
+    bottom: 91.6%;
+}
+
+
 .phone h3
 {
+    margin-left: 5px;
     font-weight: 300;
     font-size: 36px;
     line-height: 103.61%;
@@ -97,6 +109,7 @@ body
 
 .email h3
 {
+    margin-left: 5px;
     font-weight: 300;
     line-height: 103.61%;
     font-size: 24px;
@@ -114,6 +127,7 @@ body
 
 .telegram h3
 {
+    margin-left: 5px;
     font-weight: 300;
     font-size: 24px;
     line-height: 103.61%;
@@ -125,13 +139,25 @@ body
 .aboutMyself
 {
     background-color: rgba(196, 196, 196, 0.9);
-    width: 100%;
-    font-family: sans-serif;
+    font-family:'Roboto', sans-serif;
+    min-width: max-content;
     font-style: normal;
     font-weight: 300;
     color: #000000;
+    padding-left: 0.5%;
     display: flex;
     flex-direction: row;
+
+}
+
+
+.educationInLSTUInfo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+    margin: 0.25%;
 }
 
 
@@ -150,6 +176,7 @@ body
     line-height: 160.12%;
     /* or 58px */
     letter-spacing: 0.085em;
+    margin:0px;
 }
 
 
@@ -158,5 +185,52 @@ body
     font-size: 24px;
     line-height: 160.12%;
     /* or 38px */
-    letter-spacing: 0.085em; 
+    letter-spacing: 0.085em;
 }
+
+
+.languages
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+}
+
+
+.businessQualities
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+}
+
+.SWPIcons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+}
+
+.pcSkills
+{
+    padding-left: 0.5%;    
+}
+
+
+.SWPIcons p
+{
+    margin: 0.2%;
+}
+
+
+.PLIcons
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around 
+}
+
+
