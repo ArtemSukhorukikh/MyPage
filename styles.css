@@ -1,8 +1,15 @@
 body
 {
     background-color: #1D1815;
-    width: 1600px;
-    height: 1024px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.myNameAndСontacts
+{
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -15,6 +22,13 @@ body
     line-height: 99px;
     letter-spacing: 0.13em;
     color: #FFFFFF;
+}
+
+
+.myName
+{
+    /*width: 622px;
+    height: 312px;*/
 }
 
 
@@ -31,6 +45,15 @@ body
 }
 
 
+.photo
+{
+    width: 264px;
+    height: 312px;
+    left: 35px;
+    top: 17px;
+}
+
+
 .headPage
 {
     display: flex;
@@ -44,10 +67,18 @@ body
     font-style: normal;
     font-weight: 300;
     color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone
+{
+    display: flex;
+    flex-direction: row;
 }
 
 
-.phone
+.phone h3
 {
     font-weight: 300;
     font-size: 36px;
@@ -56,7 +87,15 @@ body
     letter-spacing: 0.13em;
 }
 
+
 .email
+{
+    display: flex;
+    flex-direction: row; 
+}
+
+
+.email h3
 {
     font-weight: 300;
     line-height: 103.61%;
@@ -68,13 +107,56 @@ body
 
 .telegram
 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.telegram h3
+{
     font-weight: 300;
     font-size: 24px;
     line-height: 103.61%;
     /* identical to box height, or 25px */
     letter-spacing: 0.085em;
 }
+
+
 .aboutMyself
 {
     background-color: rgba(196, 196, 196, 0.9);
+    width: 100%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.aboutMyself h1
+{
+    font-size: 48px;
+    line-height: 103.61%;
+    /* identical to box height, or 50px */
+    letter-spacing: 0.085em;
+}
+
+
+.aboutMyself h3
+{
+    font-size: 36px;
+    line-height: 160.12%;
+    /* or 58px */
+    letter-spacing: 0.085em;
+}
+
+
+.aboutMyself p
+{
+    font-size: 24px;
+    line-height: 160.12%;
+    /* or 38px */
+    letter-spacing: 0.085em; 
 }
