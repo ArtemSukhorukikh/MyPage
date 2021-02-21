@@ -71,9 +71,10 @@ body
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
+    margin-left: 2%;
 }
 
-.phone
+.contactsInfo
 {
     display: flex;
     flex-direction: row;
@@ -89,7 +90,7 @@ body
 }
 
 
-.phone h3
+.contactsInfo h3
 {
     margin-left: 5px;
     font-weight: 300;
@@ -97,42 +98,6 @@ body
     line-height: 103.61%;
     /* or 37px */
     letter-spacing: 0.13em;
-}
-
-
-.email
-{
-    display: flex;
-    flex-direction: row; 
-}
-
-
-.email h3
-{
-    margin-left: 5px;
-    font-weight: 300;
-    line-height: 103.61%;
-    font-size: 24px;
-    /* identical to box height, or 25px */
-    letter-spacing: 0.085em;
-}
-
-
-.telegram
-{
-    display: flex;
-    flex-direction: row;
-}
-
-
-.telegram h3
-{
-    margin-left: 5px;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 103.61%;
-    /* identical to box height, or 25px */
-    letter-spacing: 0.085em;
 }
 
 
@@ -234,3 +199,41 @@ body
 }
 
 
+@media (max-width: 800px)
+{
+    .aboutMyself
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #line
+    {
+        max-height: 12px;
+        transform: rotate(90);
+    }
+    .photo
+    {
+        height: 154;
+        width: 125;
+    }
+    .myName h1
+    {
+        font-size: 18px;
+    }
+    .myName h4
+    {
+        font-size:14px;
+    }
+    .contactsInfo h3
+    {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1600px)
+{
+    #line
+    {
+        transform: rotate(90);
+    } 
+}
