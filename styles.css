@@ -109,7 +109,7 @@ body
 .aboutMyself
 {
     background-color: rgba(196, 196, 196, 0.9);
-    font-family:'Roboto';
+    font-family:'Roboto', sans-serif;
     min-width: max-content;
     font-style: bolder;
     font-weight: 300;
