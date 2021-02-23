@@ -3,15 +3,18 @@
 body
 {
     background-color: #1D1815;
-    width: 100%;
+
 }
 
-
+h1,h2,h3,h4,h5
+{
+    margin: 0;
+}
 .myNameAndСontacts
 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 
@@ -64,7 +67,7 @@ body
 .headPage
 {
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
 }
 
 
@@ -77,12 +80,14 @@ body
     display: flex;
     flex-direction: column;
     margin-left: 2%;
+    margin-right: 2%;
 }
 
 .contactsInfo
 {
     display: flex;
     flex-direction: row;
+    margin: 10px;
 }
 
 
@@ -102,7 +107,7 @@ body
     font-size: 36px;
     line-height: 103.61%;
     /* or 37px */
-    letter-spacing: 0.13em;
+    letter-spacing: 0.08em;
 }
 
 
@@ -318,25 +323,18 @@ body
         flex-direction: row;
         justify-content: space-between;
     }
-
-
     .myNameAndСontacts
     {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    
-    
     .aboutMyself
     {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 95%;
     }
-
-    
     #line
     {
         max-height: 12px;
@@ -352,7 +350,7 @@ body
     {
         font-weight: 300;
         font-size: 45px;
-        line-height: 25px;
+        line-height: 40px;
         letter-spacing: 0.13em;
         margin: 2%;
     }
