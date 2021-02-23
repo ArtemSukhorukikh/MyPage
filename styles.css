@@ -6,10 +6,20 @@ body
 
 }
 
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+
 h1,h2,h3,h4,h5
 {
     margin: 0;
 }
+
+
 .myNameAndСontacts
 {
     display: flex;
@@ -83,6 +93,7 @@ h1,h2,h3,h4,h5
     margin-right: 2%;
 }
 
+
 .contactsInfo
 {
     display: flex;
@@ -115,7 +126,7 @@ h1,h2,h3,h4,h5
 {
     background-color: rgba(196, 196, 196, 0.9);
     font-family:'Roboto', sans-serif;
-    min-width: max-content;
+    width: 100%;
     font-style: bolder;
     font-weight: 300;
     color: #000000;
@@ -270,6 +281,7 @@ h1,h2,h3,h4,h5
 
 .pcSkills
 {
+    padding-bottom: 10px;
     padding-left: 0.5%;    
 }
 
@@ -302,6 +314,7 @@ h1,h2,h3,h4,h5
     line-height: 103.61%;
     /* identical to box height, or 50px */
     margin-bottom: 0.15%;
+    padding-bottom: 15px;
 }
 
 
@@ -312,16 +325,23 @@ h1,h2,h3,h4,h5
     line-height: 103.61%;
     /* identical to box height, or 50px */
     letter-spacing: 0.055em;
+    padding-bottom: 15px;
 }
 
 
 @media (max-width: 1000px)
 {
+    body
+    {
+        width: 100%;
+        margin: 0;
+    }
     .headPage
     {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center ;
     }
     .myNameAndСontacts
     {
@@ -333,23 +353,38 @@ h1,h2,h3,h4,h5
     {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content:left;
+        padding: 10px;
+    }
+    .aboutMyself h1
+    {
+        font-size: 25px;
+    }
+    .aboutMyself h3
+    {
+        font-size: 20px;
+    }
+    .aboutMyself p
+    {
+        font-size: 15px;
+        margin-left: 0px;
     }
     #line
     {
-        max-height: 12px;
+        padding: 0px;
+        height: 8px;
         transform: rotate(90);
     }
     .photo img
     {
-        height: 154;
+        height: auto;
         width: 125;
         padding-left: 2%;
     }
     .myName h1
     {
         font-weight: 300;
-        font-size: 45px;
+        font-size: 40px;
         line-height: 40px;
         letter-spacing: 0.13em;
         margin: 2%;
@@ -357,7 +392,7 @@ h1,h2,h3,h4,h5
     .myName h4
     {
         font-weight: 300;
-        font-size: 25px;
+        font-size: 20px;
         line-height: 103.61%;
         /* or 15px */
         letter-spacing: 0.13em;
@@ -365,15 +400,27 @@ h1,h2,h3,h4,h5
     }
     .contactsInfo h3
     {
-        font-size: 25px;
+        font-size: 15px;
+    }
+    .education
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .educationInLSTUInfo
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .PLIcons img
+    {
+        width: 50px;
+        height: 50px;
+    }
+    .SWPIcons img
+    {
+        width: 25px;
+        height: 25px;
     }
 }
-
-/*@media (max-width: 1600px)
-{
-    #line
-    {
-        transform: rotate(90);
-    } 
-}
-*/
