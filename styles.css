@@ -24,6 +24,8 @@ body
     line-height: 99px;
     letter-spacing: 0.13em;
     color: #FFFFFF;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
@@ -44,10 +46,12 @@ body
     /* or 37px */
     letter-spacing: 0.13em;
     color: #6F6B6A;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
-.photo
+.photo img
 {
     width: 264px;
     height: 312px;
@@ -60,6 +64,7 @@ body
 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 
@@ -112,7 +117,7 @@ body
     padding-left: 0.5%;
     display: flex;
     flex-direction: row;
-
+    justify-content: center;
 }
 
 
@@ -122,7 +127,20 @@ body
     flex-direction: row;
     align-items: center;
     justify-content:left;
-    margin: 0.25%;
+    margin: 0.15%;
+}
+
+
+.educationInLSTUInfo h3,p
+{
+    margin: 2%;
+    margin-left: 5px;
+}
+
+
+.educationInLSTU h1
+{
+    margin-bottom: 8px;
 }
 
 
@@ -163,12 +181,24 @@ body
 }
 
 
+.сomputerProficiency p
+{
+    margin: 0.5%;
+}
+
+
+.сomputerProficiency h1
+{
+    margin-bottom: 8px;
+}
+
+
 .businessQualities
 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:left;
+    justify-content:space-around;
 }
 
 .SWPIcons{
@@ -195,45 +225,83 @@ body
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-around 
+    justify-content:space-around;
+    margin-top: 0.2%;
 }
 
 
-@media (max-width: 800px)
+.programmingLanguages h1
 {
+    margin-bottom: 0.15%;
+}
+
+
+@media (max-device-width: 1000px)
+{
+    .headPage
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    .myNameAndСontacts
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
     .aboutMyself
     {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        width: 95%;
     }
+
+    
     #line
     {
         max-height: 12px;
         transform: rotate(90);
     }
-    .photo
+    .photo img
     {
         height: 154;
         width: 125;
+        padding-left: 2%;
     }
     .myName h1
     {
-        font-size: 18px;
+        font-weight: 300;
+        font-size: 45px;
+        line-height: 25px;
+        letter-spacing: 0.13em;
+        margin: 2%;
     }
     .myName h4
     {
-        font-size:14px;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 103.61%;
+        /* or 15px */
+        letter-spacing: 0.13em;
+        margin: 2%;
     }
     .contactsInfo h3
     {
-        font-size: 13px;
+        font-size: 25px;
     }
 }
 
-@media (max-width: 1600px)
+/*@media (max-width: 1600px)
 {
     #line
     {
         transform: rotate(90);
     } 
 }
+*/
