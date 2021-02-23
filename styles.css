@@ -109,15 +109,15 @@ body
 .aboutMyself
 {
     background-color: rgba(196, 196, 196, 0.9);
-    font-family:'Roboto', sans-serif;
+    font-family:'Roboto';
     min-width: max-content;
-    font-style: normal;
+    font-style: bolder;
     font-weight: 300;
     color: #000000;
     padding-left: 0.5%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:center;
 }
 
 
@@ -126,13 +126,12 @@ body
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:left;
-    margin: 0.15%;
 }
 
 
 .educationInLSTUInfo h3,p
 {
+    font-weight:300;
     margin: 2%;
     margin-left: 5px;
 }
@@ -140,6 +139,7 @@ body
 
 .educationInLSTU h1
 {
+    font-weight: 300;
     margin-bottom: 8px;
 }
 
@@ -160,6 +160,7 @@ body
     /* or 58px */
     letter-spacing: 0.085em;
     margin:0px;
+    font-weight: 300;
 }
 
 
@@ -175,20 +176,41 @@ body
 .languages
 {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
     justify-content:left;
+    font-weight: normal;
+}
+
+
+.languages p
+{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 103.61%;
+    /* or 37px */
+    letter-spacing: 0.085em;
 }
 
 
 .сomputerProficiency p
 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 103.61%;
+    /* or 37px */
+    letter-spacing: 0.045em;
     margin: 0.5%;
 }
 
 
 .сomputerProficiency h1
 {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 103.61%;
+    /* identical to box height, or 50px */
+    letter-spacing: 0.045em;
     margin-bottom: 8px;
 }
 
@@ -196,10 +218,23 @@ body
 .businessQualities
 {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
     justify-content:space-around;
+    font-weight: normal;
 }
+
+
+.businessQualities p
+{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 103.61%;
+    /* or 37px */
+    letter-spacing: 0.085em;
+    margin-left: 0;
+}
+
 
 .SWPIcons{
     display: flex;
@@ -216,6 +251,11 @@ body
 
 .SWPIcons p
 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 103.61%;
+    /* or 37px */
+    letter-spacing: 0.005em;
     margin: 0.2%;
 }
 
@@ -232,7 +272,21 @@ body
 
 .programmingLanguages h1
 {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 103.61%;
+    /* identical to box height, or 50px */
     margin-bottom: 0.15%;
+}
+
+
+.softwareProducts h1
+{
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 103.61%;
+    /* identical to box height, or 50px */
+    letter-spacing: 0.055em;
 }
 
 
